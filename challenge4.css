@@ -1,0 +1,35 @@
+body{
+    text-align: center;
+    background-image: url(./istockphoto-1316043925-612x612.jpg);
+    color: white;
+    background-size: 100%, 100%;
+}
+ 
+td{
+    border: 0px solid black;
+    
+    /* padding: 2px; */
+}
+p{
+     text-align: right;
+ }
+  .t1 , .t2 , .t3 {
+    width: 100%;
+   
+}
+ 
+  
+
+     .header {
+        display: flex;
+    }
+ 
+span{
+    background-color: red;
+    
+    width: 50%;
+
+}
+
+ 
+ 

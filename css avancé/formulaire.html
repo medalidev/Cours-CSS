@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CSS avancé</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./spriteimage.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+</head>
+
+<body>
+    <h1>Les formulaires</h1>
+    <form>
+        <fieldset>
+            <legend>Informations personnelles</legend>
+            <label for="nom">nom</label>
+            <input type="text" name="nom"> <br>
+
+            <label for="prenom">prènom</label>
+            <input type="text" name="prenom"> <br>
+
+            <textarea name="commentaire" id="" cols="40" rows="10"></textarea> <br>
+
+            <button type="submit">confirmer</button><br>
+
+            <input type="date" name="" id=""><br>
+
+            <input type="file" name="" id=""><br>
+
+            <input type="submit" name="" id=""><br>
+
+            <label for="mail">entrer votre email</label>
+            <input name="mail" type="email"><br><br><br>
+
+            Homme ou Femme<br>
+            <input type="radio" name="sexe" id="homme" value="homme">
+            <label for="homme">Homme</label><br>
+            <input type="radio" name="sexe" id="femme" value="femme">
+            <label for="femme">Femme</label><br><br><br>
+
+            Majeur ou Mineur<br>
+            <input type="radio" name="age" id="majeur" value="majeur">
+            <label for="majeur">Majeur</label><br>
+            <input type="radio" name="age" id="mineur" value="mineur">
+            <label for="mineur">Mineur</label><br><br><br>
+        </fieldset>
+<fieldset>
+    <legend>Informations supplémentaires</legend>
+        Quel(s) sport(s) pratiquer vous?<br>
+        <input type="checkbox" name="sport" id="corps" value="corps">
+        <label for="corps">Natation</label><br>
+        <input type="checkbox" name="sport" id="bras" value="bras" checked="checked">
+        <label for="bras">Basket</label><br><br>
+
+        Quel est votre pays?<br>
+        <select name="pays">
+            <optgroup label="asie">
+                <option value="ar">Arabie Saudi</option>
+                <option value="palestine" selected="selected">Palestine</option>
+            </optgroup>
+            <optgroup label="afrique">
+                <option value="tunisie">Tunisie</option>
+                <option value="algerie">Algérie</option>
+                <option value="egypt">Egypt</option>
+            </optgroup>
+        </select>
+    </fieldset>
+    </form>
+</body>
+
+</html>

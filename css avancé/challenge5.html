@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Challenge 5</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./challenge5.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+</head>
+
+<body>
+    <form>
+        <label for="nom" class="c1">Nom:</label>
+        <input type="text" name="Votre nom" id="nm" placeholder="Votre nom"><br>
+
+        <label for="prenom" class="c1">Prénom:</label>
+        <input type="text" name="prenom" id="prnm" placeholder="votre prénom"><br>
+
+        Commentaire<br>
+        <textarea name="Commentaire" id="comment" cols="70" rows="15" placeholder="Tapper votre commentaire ici ...."></textarea><br>
+
+        <label for="date">Date de naissance</label>
+        <select name="jour">
+            <option value="j1">1</option>
+            <option value="j2">2</option>
+            <option value="j3">3</option>
+        </select>
+        <select name="mois">
+                <option value="m1">Janvier</option>
+                <option value="m2">Février</option>
+                <option value="m3">Mars</option>
+            </select>
+            <select name="ans">
+                    <option value="a1">1993</option>
+                    <option value="a2">1994</option>
+                    <option value="a3">1995</option>
+                </select>
+<br>
+        <input type="radio" name="sexe" id="femme" value="femme">
+        <label for="femme">Femme</label>
+        <input type="radio" name="sexe" id="femme" value="femme">
+        <label for="femme">Femme</label><br>
+
+        <input type="checkbox" name="dev" id="html" value="html">
+        <label for="html">HTML</label>
+        <input type="checkbox" name="dev" id="css" value="css">
+        <label for="html">CSS</label>
+        <input type="checkbox" name="dev" id="js" value="js">
+        <label for="html">JavaScript</label><br><br>
+
+        <label for="mail">E-mail:</label>
+        <input type="email" name="mail" placeholder="Tapper votre e-mail ici"><br>
+
+        <label for="pass">Password:</label>
+        <input type="password" name="pass" placeholder="Tapper votre mot de passe ici"><br>
+
+        <label for="ne">Date de naissance:</label>
+        <input type="date" name="ne"><br>
+
+        <label for="tof">Photo de profil:</label>
+        <input type="file" name="tof"><br>
+
+        <label for="enfant">Nombre d'enfant:</label>
+        <input type="number" name="enfant" placeholder="Tapper un nombre ici"><br>
+        
+        <label for="color">Couleur :</label>
+        <input type="color" name="color"><br>
+
+        <label for="dat">Date :</label>
+        <input type="datetime-local" name="dat"><br>
+
+        <button type="submit">Envoyer</button>
+        <button type="submit">Vider les champs</button>
+    </form>
+</body>
+
+</html>

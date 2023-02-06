@@ -1,0 +1,18 @@
+h1, p{
+    font-size: 40px;
+    color: red;
+    font-style: italic;
+}
+p{
+    color: blue;
+    /* font-weight: bold; */
+}
+#p1{
+    color: green;
+}
+.p2{
+    color: yellow;
+}
+#p3{
+    color: gray;
+}

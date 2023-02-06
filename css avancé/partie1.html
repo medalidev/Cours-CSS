@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Partie1</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <legend>VOS DONNEES PERSONNELLES</legend><br><br><br>
+
+            <label for="nom" class="dd">Nom</label>
+            <input type="text" name="nom" placeholder="Votre nom"><br>
+
+            <label for="prn" class="dd">Prénom</label>
+            <input type="text" name="prn" placeholder="Votre prénom"><br>
+
+            <label for="nai" class="dd">Date de naissance</label>
+            <input type="datetime" name="nai"><br><br>
+
+            <fieldset class="fdd">
+                <legend>LIEU DE NAISSANCE</legend>
+                <input type="radio" name="lieu" id="nais">
+                <label for="nais" class="fin">Seine-Saint-Denis</label>
+                <input type="radio" name="lieu" id="naic">
+                <label for="naic" class="fin">Reste du monde</label>
+            </fieldset><br>
+
+            <label for="ad" class="dd">Adresse postale</label>
+            <input type="text" name="ad" id="i4" placeholder="Votre adresse"><br>
+
+            <label for="cod" class="dd">Code postal</label>
+            <input type="number" name="cod" placeholder="93000"><br>
+
+            <label for="elec" class="dd">Adresse électronique</label>
+            <input type="email" name="elec" placeholder="Votre adresse électronique"><br>
+
+            <label for="page" class="dd">Page personnelle</label>
+            <input type="text" name="page" placeholder="Votre page web"><br>
+
+            <label for="tel" class="dd">Télephone portable</label>
+            <input type="number" name="tel" placeholder="0601234567"><br><br>
+
+            <fieldset class="fd">
+                <legend>CONNAISSANCES</legend>
+                <input type="checkbox" name="conn" id="html" checked="checked">
+                <label for="html" class="fin">HTML</label>
+                <input type="checkbox" name="conn" id="CSS">
+                <label for="CSS" class="fin">CSS</label>
+                <input type="checkbox" name="conn" id="FOR">
+                <label for="FOR" class="fin">formulaires</label>
+                <input type="checkbox" name="conn" id="js">
+                <label for="js" class="fin">JavaScript</label><br>
+
+
+            </fieldset><br>
+            <button type="submit">Envoyer</button><br><br><br><br>
+        </fieldset>
+
+    </form>
+</body>
+
+</html>

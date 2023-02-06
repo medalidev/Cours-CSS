@@ -1,0 +1,26 @@
+body{
+    /* background-image: url(image-html/img/Desert.jpg), url(image-html/images.png); */
+    /* background-size: 25%, 25%; */
+    /* background-repeat: no-repeat, no-repeat; */
+    /* background-attachment: scroll; */
+    /* background-position: top left, top right; */
+    /* background-position: top right; */
+} 
+.div1{
+    float: right;
+    width: 250px;
+    height: 250px;
+    background: -webkit-linear-gradient(left, blue, purple, yellow);
+    background: -moz-linear-gradient(right, blue, purple, yellow);
+    background: -o-linear-gradient(right, blue, purple, yellow);
+    background: linear-gradient(to right, blue, purple, yellow);
+
+}
+.div2{
+    float: left;
+    width: 250px;
+    height: 250px;
+    /* background: -webkit-radial-gradient(circle, blue, purple, yellow); */
+    /* background: -moz-radial-gradient(circle, blue, purple, yellow); */
+    background: radial-gradient(closest-side at 20% 40%, blue, purple, yellow);
+}

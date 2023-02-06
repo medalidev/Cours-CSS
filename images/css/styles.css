@@ -1,0 +1,75 @@
+
+
+
+
+
+.p1{
+    margin-left: 20px; 
+    font-size: 15px;  
+}
+img{
+    width: 150px;
+}
+input, .button1{
+    width: 250px;
+    margin: 5px;
+    padding: 5px;
+}
+#div1{
+    margin-right: 500px
+}
+.button1{
+    background-color: mediumblue;
+    font-weight: 600;
+    color: white;
+    border-radius: 10%;
+    border-color: blue;
+}
+.bt2{
+    background-color: green;
+    font-weight: 600;
+    color: white;
+    border-radius: 10%;
+    border-color: green;
+    text-align: center; 
+    margin-left: 47px;
+    padding: 5px;
+}
+.p2{
+    text-align: center;
+    font-size: small;
+}
+span{
+    font-weight: 600;
+}
+
+@media screen and (max-width: 1500px) {
+    #div0{
+        width: 600px;
+    
+        display: flex;
+        align-content: center;
+        margin-top: 150px;
+        margin-left: 150px;
+    }
+}
+@media screen and (max-width: 768px){
+    #div1, #div2{
+        display: inline-block;
+        width: 100%;
+        
+    }
+    #div1{
+        margin-right: 0px;
+        margin: 0px
+    }
+    #div0{
+        display: inline-block;
+        width: 250px;
+        height: 300px;
+    }
+    body{
+        text-align: center
+    }
+
+}

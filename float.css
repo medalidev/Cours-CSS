@@ -1,0 +1,19 @@
+div{
+    background-color: aqua;
+    width: 30%;
+    height: 130px;
+    float: left;
+    /* z-index: 100; */
+    /* overflow: auto; */
+    text-align: center;
+}
+h1{
+    float: left;
+    width: 50%;
+    /* z-index: 200; */
+}
+.p1{
+    /* float: right; */
+}
+.p2{
+    clear: right;

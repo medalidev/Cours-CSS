@@ -1,0 +1,59 @@
+#fb, #tw{
+    width: 200px;
+    height: 200px;
+    display: block;
+    position: absolute;
+}
+#fb{
+    background-image: url(./images.png);
+    background-repeat: no-repeat;
+
+}
+#tw{
+    background-image: url(./téléchargement.png);
+    left: 300px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.div1{
+    width: 300px;
+    background-color: aqua;
+    transition: 8s width 0s ease, 2s background-color 0s ease;
+}
+.div1:hover{
+    width: 400px;
+    background-color: red;
+}
+.div2{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    -webkit-animation-name: chgt-couleur;
+    -webkit-animation-duration: 10s;
+    -webkit-animation-delay: 3s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease;
+    -webkit-animation-direction: alternate;
+
+    animation-name: chgt-couleur;
+    animation-duration: 10s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    animation-direction: alternate;
+}
+@-webkit-keyframes chgt-couleur{
+    0%{background-color: blue; top: 0px; left: 0px;}
+    25%{background-color: orange; top: 150px; left: 0px;}
+    50%{background-color: red; top: 150px; left: 150px;}
+    75%{background-color: yellow; top: 0px; left: 150px;}
+    100%{background-color: blue; top: 0px; left: 0px;}
+}
+@-keyframes chgt-couleur{
+    0%{background-color: blue; top: 0px; left: 0px;}
+    25%{background-color: orange; top: 150px; left: 0px;}
+    50%{background-color: red; top: 150px; left: 150px;}
+    75%{background-color: yellow; top: 0px; left: 150px;}
+    100%{background-color: blue; top: 0px; left: 0px;}
+}

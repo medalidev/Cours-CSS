@@ -1,0 +1,48 @@
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    /* text-indent: 50%; */
+    text-shadow: 0px 0px 4px #444;
+    position: fixed;
+    z-index: 200;
+    top: 0px;
+    right: 0px;
+}
+.p1{
+    text-transform: capitalize;
+    /* text-indent: 100px; */
+    /* text-shadow: 3px 3px 4px #333; */
+}
+a{
+    text-decoration: none;
+}
+.p2{
+    text-transform: lowercase;
+    /* text-decoration: line-through; */
+    /* text-indent: 20%; */
+    /* text-shadow: -3px -3px 4px #333; */
+}
+.p3{
+    letter-spacing: 4px;
+    word-spacing: 20px;
+}
+div{
+    background-color: aqua;
+    position: relative;
+    height: 400px;
+    width: 65%;
+    z-index: 100;
+    /* padding: 30px; */
+    /* border: 10px inset #333; */
+    /* border-radius: 20px; */
+    /* border-bottom-right-radius: 50px; */
+    /* border-bottom: 5px dashed; */
+    /* border-top-style: dotted; */
+    /* border-top-color: black; */
+    /* border-top-width: 5px; */
+    /* margin: 50px; */
+}
+body{
+    /* position: relative; */
+}

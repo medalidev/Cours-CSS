@@ -1,0 +1,22 @@
+table{
+    border-collapse: collapse;
+}
+td, th{
+    border: 1px solid black;
+    padding: 10px;
+}
+th{
+    background-color: aqua;
+    font-weight: normal;
+    color: #fff;
+    text-transform: uppercase;
+}
+.pair{
+    background-color: brown;
+}
+tfoot td{
+    background-color: aqua;
+    color: #fff;
+    text-transform: uppercase;
+
+}
